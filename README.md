@@ -30,7 +30,7 @@ upcoming Dev plan
 	C:\kafka\kafka_2.13-3.2.1\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic topicOne
 	if at any point of time spark is not consuming any messages, to troubleshoot we can run using Kafka-consumer and test if msges are getting read which are send from Spark-producer.
 
-# _Next development Plan_
+## _Next development Plan_
 
 - Add Spark and cassandra Dependencies.
 - Read events into the spark.
