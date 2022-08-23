@@ -31,7 +31,7 @@ upcoming Dev plan
 	if at any point of time spark is not consuming any messages, to troubleshoot we can run using Kafka-consumer and test if msges are getting read which are send from Spark-producer.
 
 # _Next development Plan_
-
+================================
 - Add Spark and cassandra Dependencies.
 - Read events into the spark.
 - Do required calculation with Spark Streaming.
