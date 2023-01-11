@@ -6,6 +6,9 @@ upcoming Dev plan
 - and will calculate avg Price of the stock.
 - store AVG of each stock in the DB.
 
+
+
+
 ## Commands to start Zookeeper and Kafka
 
 ## _Start the ZooKeeper application using below command in ..bin\windows folder_
