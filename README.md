@@ -27,7 +27,7 @@
 	==========================
 	C:\kafka\kafka_2.13-3.2.1\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic topicOne
 	here for us spark is the consumer.
-	C:\kafka\kafka_2.13-3.2.1\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic topicOne
+	C:\kafka\kafka_2.13-3.2.1\bin\windows>kafka-console-consumer.bat --broker-list localhost:9092 --topic topicOne
 	if at any point of time spark is not consuming any messages, to troubleshoot we can run using Kafka-consumer and test if msges are getting read which are send from Spark-producer.
 
 ## _Next development Plan_
