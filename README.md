@@ -9,6 +9,8 @@
 	- Mostly then cleaned data can be used by Data Analyst and they can query to the cassandra( new tables) for there use case.
 	- we will have one -to-one mapping for the queue (producer and consumer) for each different input types.
 
+![alt text](https://github.com/shasibhusanJena/spring-boot-kafka-consumer-application/blob/V2_restructuring/Capture.PNG)
+
 ## Commands to start Zookeeper and Kafka
 
 ## _Start the ZooKeeper application using below command in ..bin\windows folder_
