@@ -1,10 +1,15 @@
 # spring-boot-kafka-consumer-application
 
-upcoming Dev plan
+## Project Overview::
 
-- Here we are going to process Historical trade data as (String or Json) as input.
-- and will calculate avg Price of the stock.
-- store AVG of each stock in the DB.
+	steps to follow are do data cleaning ,pre processing, apply some business logic and store in simple format.
+	- initially we are professing (String or Json) as input from kafka producer and will consume using Spring-boot-Kafka
+	- this Product will process input events which could be ex: StockData or click events for a company etc and will process it as per business need.
+	- once we are doing all the pre processing of data using spark, then will save data into different tables for further usages.
+	- Mostly then cleaned data can be used by Data Analyst and they can query to the cassandra( new tables) for there use case.
+	- we will have one -to-one mapping for the queue (producer and consumer) for each different input types.
+
+![alt text](https://github.com/shasibhusanJena/spring-boot-kafka-consumer-application/blob/V2_restructuring/Capture.PNG)
 
 ## Commands to start Zookeeper and Kafka
 
